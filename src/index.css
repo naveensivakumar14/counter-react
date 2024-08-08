@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Counter APP Styles */
+
+.main{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.counter{
+  background-color: #B6FFCE;
+  border: 1px solid black;
+  text-align: center;
+  padding: 30px;
+}
+.counter button{
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: #207f4f;
+  color: white;
+}
+
+.random{
+  background-color: #ffb1b1;
+  padding: 45px;
+  text-align: center;
+}
+
+.random button{
+  background-color: #ff0d0d;
+  color: white;
+ border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  padding:  10px 20px;
+}
