@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /*-----------------------------Week 7 Assignment-------------------------*/
 //Counter App 
 
-//Recat component
+//React component
 
 function Counter(){
 
