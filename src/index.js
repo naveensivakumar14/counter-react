@@ -11,11 +11,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /*-----------------------------Week 7 Assignment-------------------------*/
 //Counter App 
 
-//component
+//Recat component
 
 function Counter(){
 
-  //state
+  //useStae() for dynamic elements
   var [count,setmyCount]=useState(0);
   var [random,setRandom]=useState(0);
 
@@ -34,7 +34,6 @@ function Counter(){
   }
 
   //function create random numbers
-
   function randomGen(){
     var r=Math.floor(Math.random()*100);
     setRandom(r);
